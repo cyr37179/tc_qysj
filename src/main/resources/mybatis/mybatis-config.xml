@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+    <typeAliases>
+        <!-- 单个实体类配置别名 -->
+        <typeAlias type="com.ly.bookAppoint.pojo.Book" alias="Book"/>
+        <typeAlias type="com.ly.bookAppoint.pojo.Appointment" alias="Appointment"/>
+        <!-- 整个包配置，别名默认为类名 推荐 -->
+        <package name="com.ly.bookAppoint.bean"/>
+    </typeAliases>
+</configuration>
